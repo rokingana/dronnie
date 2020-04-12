@@ -1,0 +1,217 @@
+
+:root {
+  --main-pink: rgb(255, 67, 114, 1);
+  --main-blue: #00035e;
+  --main-blue-transp: rgb(0, 1, 31, 0.8);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	color: var(--main-blue);
+}
+
+a {
+	text-decoration: none;
+	color: var(--main-pink);
+}
+
+a:hover {
+	background-color: var(--main-pink);
+	color: var(--main-blue);
+}
+
+.navbar {
+	position: fixed;;
+	z-index: 1000;
+	background: var(--main-blue-transp);
+	width: 100vw;
+}
+
+.wrapper {
+	max-width: 1140px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+#header {
+	background: url("../img/map-bkg.jpg") no-repeat fixed center;
+	color: var(--main-pink);
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;	
+}
+
+.navbar a:hover {
+	background-color: rgb(255, 255, 255, 0);
+	color: var(--main-pink);
+	border-bottom: 2px solid var(--main-pink);
+}
+
+.logo {
+
+}
+
+#team {
+	padding: 150px 0;
+}
+
+#team h2 {
+	font-size: 3rem;
+	text-align: center;
+	margin: 30px 0;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
+.card {
+	border: none;
+}
+
+.card-img, 
+.card-img-top {
+	border-radius: 50%;
+}
+
+.profile-img {
+	width: 100%;
+	height: 250px;
+	border-radius: 50%;
+}
+/* Orlando */
+.profile-img.orlando {
+	background: url("../img/orlando-pink.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+.profile-img.orlando:hover{
+	background: url("../img/orlando-color.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+/* Frederico */
+
+.profile-img.frederico {
+	background: url("../img/fred-color.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+.profile-img.frederico:hover{
+	background: url("../img/fred-color.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+/* Ana */
+
+.profile-img.ana {
+	background: url("../img/ana-pink.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+.profile-img.ana:hover{
+	background: url("../img/ana-color.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+/* Arki */
+
+.profile-img.arki {
+	background: url("../img/arki-pink.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+.profile-img.arki:hover{
+	background: url("../img/arki-color.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+.card-title {
+	font-weight: 400;
+}
+
+.card-subtitle {
+	font-weight: 300;
+}
+
+.card-text {
+	margin-top: 10px;
+}
+
+
+a.fab {
+	background-color: var(--main-pink);
+	padding: 8px;
+	font-size: 14px;
+	border-radius: 50%;
+	width: 30px;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+}
+
+a.fab:hover {
+	background-color: #fff;
+	color: var(--main-pink);
+}
+
+.social-menu {
+	list-style: none;
+}
+
+.menu-container .social-menu {
+	float: right;
+}
+
+.social-menu li a {
+	width: 30px;
+	height: 30px;
+}
+
+.social-menu li:nth-last-child(1) {
+	padding-right: 0px;
+}
+
+
+.social-menu li {
+	display: inline-block;
+	padding-right: 11px;
+}
+
+
+/**** TESTEMONIAL ****/
+
+
+.carousel-caption {
+	color: var(--main-blue);
+	
+}
+
+.carousel-caption p {
+	font-size: 3rem;
+	line-height: 1rem;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.carousel-caption h5 {
+	
+}
+
+.quote-right {
+	text-align: end;
+}
+
+.quote-left {
+	text-align: start;	
+}
+
+
+
