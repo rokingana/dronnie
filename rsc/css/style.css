@@ -1,6 +1,7 @@
 
 :root {
   --main-pink: rgb(255, 67, 114, 1);
+  --main-pink-transp: rgb(255, 67, 114, 0.8);
   --main-blue: #00035e;
   --main-blue-transp: rgb(0, 1, 31, 0.8);
 }
@@ -47,8 +48,28 @@ a:hover {
 	height: 100vh;
 	display: flex;
 	justify-content: center;
-	align-items: flex-end;	
+	align-items: flex-end;
+	background-size: cover;	
+	padding: 15% 0;
+	text-align: center;
 }
+
+a.download-btn {
+	background-color: var(--main-pink);
+	padding: 20px 40px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 2px;
+	font-weight: 800;
+	font-size: 0.8rem;
+}
+
+
+a.download-btn:hover {
+	background-color: var(--main-pink-transp);
+}
+
 
 .navbar a:hover {
 	background-color: rgb(255, 255, 255, 0);
@@ -57,7 +78,7 @@ a:hover {
 }
 
 .logo {
-
+	margin-bottom: 20px;
 }
 
 #team {
