@@ -68,6 +68,13 @@ a.download-btn {
 
 a.download-btn:hover {
 	background-color: var(--main-pink-transp);
+	transition: background-color 0.5s;
+}
+
+
+.nav-bar a {
+	border-bottom: none;
+	transition: border-bottom 0.5px;
 }
 
 
@@ -111,6 +118,7 @@ a.download-btn:hover {
 .profile-img.orlando {
 	background: url("../img/orlando-pink.jpg") no-repeat center center;
 	background-size: cover;
+	transition: background 0.5s;
 }
 
 .profile-img.orlando:hover{
@@ -121,8 +129,9 @@ a.download-btn:hover {
 /* Frederico */
 
 .profile-img.frederico {
-	background: url("../img/fred-color.jpg") no-repeat center center;
+	background: url("../img/fred-pink.jpg") no-repeat center center;
 	background-size: cover;
+	transition: background 0.5s;
 }
 
 .profile-img.frederico:hover{
@@ -135,6 +144,7 @@ a.download-btn:hover {
 .profile-img.ana {
 	background: url("../img/ana-pink.jpg") no-repeat center center;
 	background-size: cover;
+	transition: background 0.5s;
 }
 
 .profile-img.ana:hover{
@@ -147,6 +157,7 @@ a.download-btn:hover {
 .profile-img.arki {
 	background: url("../img/arki-pink.jpg") no-repeat center center;
 	background-size: cover;
+	transition: background 0.5s;
 }
 
 .profile-img.arki:hover{
@@ -181,6 +192,7 @@ a.fab {
 a.fab:hover {
 	background-color: #fff;
 	color: var(--main-pink);
+	transition: background-color 0.5s;
 }
 
 .social-menu {
