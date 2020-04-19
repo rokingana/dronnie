@@ -191,14 +191,19 @@ a.fab:hover {
 
 .carousel-caption {
 	color: var(--main-blue);
-	
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .carousel-caption p {
-	font-size: 3rem;
-	line-height: 3rem;
+	font-size: 5vw;
+	line-height: 5vw;
 	font-weight: 300;
 	font-style: italic;
+}
+
+.carousel-caption h5 {
+	font-size: 3vw;
 }
 
 
