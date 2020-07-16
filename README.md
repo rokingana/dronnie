@@ -3,4 +3,4 @@ Simple landing page to present the JAVA project made within <_Academia de Códig
 
 Tha direct link for the page: https://rokingana.github.io/dronnie/
 
-The game you can check directly here: https://github.com/HigherArki/until-dawn
+The game you can check directly here: https://github.com/rokingana/until-dawn
